@@ -1,7 +1,7 @@
 class Solution {
     public boolean isUgly(int n) {
          if (n <= 0) {
-            return false; // Ugly numbers are positive integers
+            return false;
         }
 
         while (n % 2 == 0) {
